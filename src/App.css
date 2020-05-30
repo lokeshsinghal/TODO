@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #030306;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input-ratio{
+  height: 40px;
+  width: 200px;
+  background-color: #222354;
+  /* color: white; */
+  border: none;
+  border-radius: 6px;
+}
+
+.button-ratio{
+  height:42px;
+  width:70px;
+  margin-left: 20px;
+  background-color:#4661ff;
+  color:white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius:6px;
+}
+
+.item-box{
+  background-color: #222354;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 6px;
+  min-height: 50px;
+}
+
+.item-box p{
+  margin-block-end: 0em;
+  border-radius: 6px;
+}
+
+.percentage-width{
+  width:73px;
+  border-radius: 6px;
+  border:none;
+  margin: 1px;
+  color: white;
+}
+.btn-color1{
+  background-color: red;
+}
+.btn-color2{
+  background-color:#2a9df4;
+}
+.btn-color3{
+  background-color: #ed7014;
+}
+.btn-color4{
+  background-color: #3cb043;
+}
+.delete-button{
+  background-color: #7a88c1;
+}
+.per20{
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 6px;
+  min-height: 50px;
+  background: -webkit-linear-gradient(left, red 20%, #222354 20%);
+  background: -moz-linear-gradient(left, red 20%, #222354 20%);
+  background: -ms-linear-gradient(left, red 20%, #222354 20%);
+  background: linear-gradient(to right, red 20%, #222354 20%);
+  transition-property: background;
+    transition-duration: .70s;
+}
+.per20 p{
+  margin-block-end: 0em;
+  border-radius: 6px;
+}
+.per40 p{
+  margin-block-end: 0em;
+  border-radius: 6px;
+}
+.per80 p{
+  margin-block-end: 0em;
+  border-radius: 6px;
+}
+.per100 p{
+  margin-block-end: 0em;
+  border-radius: 6px;
+}
+.per100{
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 6px;
+  min-height: 50px;
+  background: -webkit-linear-gradient(left, #3cb043 100%, #222354 100%);
+  background: -moz-linear-gradient(left, #3cb043 100%, #222354 100%);
+  background: -ms-linear-gradient(left, #3cb043 100%, #222354 100%);
+  background: linear-gradient(to right, #3cb043 100%, #222354 100%);
+}
+.per80{
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 6px;
+  min-height: 50px;
+  background: -webkit-linear-gradient(left, #ed7014 80%, #222354 80%);
+  background: -moz-linear-gradient(left, #ed7014 80%, #222354 80%);
+  background: -ms-linear-gradient(left, #ed7014 80%, #222354 80%);
+  background: linear-gradient(to right,#ed7014 80%, #222354 80%);
+}
+.per40{
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 6px;
+  min-height: 50px;
+  background: -webkit-linear-gradient(left, #2a9df4 40%, #222354 40%);
+  background: -moz-linear-gradient(left, #2a9df4 40%, #222354 40%);
+  background: -ms-linear-gradient(left, #2a9df4 40%, #222354 40%);
+  background: linear-gradient(to right,#2a9df4 40%, #222354 40%);
+}
+
+#todoform input::placeholder{
+  margin-left: 1px;
+  color: antiquewhite;
+}
+#todoform input{
+  color: antiquewhite;
+}
